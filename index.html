@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="utility.css">
+</head>
+
+<body>
+    <div class="container">
+        <div class="left">
+            <div class="clock">
+            <div class="circle" id="circle">
+                <div class="hour" id="hour"></div>
+                <div class="minute" id="minute"></div>
+                <div class="second" id="second"></div>
+                <div class="twelve">12</div>
+                <div class="one">1</div>
+                <div class="two">2</div>
+                <div class="three">3</div>
+                <div class="four">4</div>
+                <div class="five">5</div>
+                <div class="six">6</div>
+                <div class="seven">7</div>
+                <div class="eight">8</div>
+                <div class="nine">9</div>
+                <div class="ten">10</div>
+                <div class="eleven">11</div>
+            </div>
+            </div>
+            <div class="timer none">
+                <div class="circle">
+                    <div class="dot"></div>
+                    <div class="currentTime">
+                        <div class="hourtime">00</div>:
+                        <div class="minutetime">00</div>:
+                        <div class="secondtime">00</div>
+                    </div>
+                    <button id="addoneminute">+1:00</button>
+                    <img src="play.png" id="playTimer" width="40px" height="40px" alt="">
+                    <img src="reset.png" id="resetTimer" width="40px" height="40px" alt="">
+                </div>
+            </div>
+            <div class="stopwatch none">
+                <div class="circle" id="circle">
+                    <div class="currentTime">
+                        <div class="hourstime">00</div>:
+                        <div class="minutestime">00</div>:
+                        <div class="secondstime">00</div>
+                    </div>
+                    
+                    <img src="play.png" id="play" width="40px" height="40px" alt="">
+                    <img src="reset.png" id="reset" width="40px" height="40px" alt="">
+                </div>
+            </div>
+            <img src="expand-solid.svg" alt="" id="fullscreen">
+        </div>
+        <div class="right">
+            <img src="home.png" height="15px" width="15px" id="home" alt="">
+            <div class="menu">
+            <button id="openTimer">Timer</button>
+            <button id="openStopWatch">StopWatch</button>
+            </div>
+            <div class="settimer none">
+                <div class="inputtimer">00h 00m 00s</div>
+                <div class="num-btns">
+                    <div class="num-btn">1</div>
+                    <div class="num-btn">2</div>
+                    <div class="num-btn">3</div>
+                    <div class="num-btn">4</div>
+                    <div class="num-btn">5</div>
+                    <div class="num-btn">6</div>
+                    <div class="num-btn">7</div>
+                    <div class="num-btn">8</div>
+                    <div class="num-btn">9</div>
+                    <div class="num-btn">0</div>
+                    <img src="delete-left-solid.svg" id="delete" alt="">
+                    <img src="play.png" id="set" width="40px" height="40px" alt="">
+                </div>
+            </div>    
+            </div>
+ 
+        </div>
+    <script src="script.js"></script>
+</body>
+
+</html>
